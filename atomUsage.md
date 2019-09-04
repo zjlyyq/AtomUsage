@@ -106,3 +106,4 @@
 + `Cmd+T`或`Ctrl+T`-快速打开项目中的文件
 + `Cmd+B`或`Ctrl+B`-快速跳转已打开的窗口
 + `Cmd+Shift+B`或`Ctrl+Shift+B`-显示未被追踪和已修改未提交的文件，相当于运行`git status`的效果
++ 使用`git config --global core.editor "atom --wait"`命令将atom作为git提交编译器。
