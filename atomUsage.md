@@ -9,13 +9,14 @@
 + `Ctrl+G`- 移动到特定行特定列
 + `Ctrl+Shift+P`-打开命令面板(里面有所有的快捷命令，包括大量没有绑定快捷键的)
 > atom支持自定义快捷键：点击头部的`Edit`按键->选择`Keymap`->编辑`keymap.cson`文件，具体语法参见https://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
+
 + `Ctrl+Shift+F2`-当前行添加书签
 + `F2`-跳转到下一书签所在的行
 + `Shift-F2`-向后循环跳转到下一书签所在的行
 + `Ctrl+F2`-列出当前项目所有书签支持搜索选择跳转
 + `Ctrl+R`-列出当前文件所有符号支持搜索选择跳转
 + `Ctrl+T`-列出当前项目所有文件支持搜索选择跳转
-+`Shift+Up` - Select up
++ `Shift+Up` - Select up
 + `Shift+Down` - Select down
 + `Shift+Left` - Select previous character
 + ` Shift+Right` - Select next character
@@ -56,6 +57,8 @@
 + `Alt+Ctrl+Shift+[ `-折叠全部代码块
 + `Alt+Ctrl+Shift+] `-展开全部代码块
 
+#### 语法选择器
++  `Ctrl+Shift+L`-打开语法选择器
 
 ### Snippets(片段)
 在snippet.cson中可以自定义片段。可以通过点击面板`Edit`->`Snippets...`编辑snippet.cson
